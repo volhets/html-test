@@ -1,3 +1,19 @@
-body {
+body, img {
     background-color:#cfcfcf;
+    background-image: src="images/film1.jpg" alt="film" width="200" height="284,5"
+}
+body, img {
+    background-image: src="images/film2.jpg" alt="film" width="200" height="284,5" 
+}
+body, img {
+    background-image: src="images/film3.jpg" alt="film" width="200" height="284,5" 
+}
+body, img {
+    background-image: src="images/mame.jpg" alt="GHOSTMAME" width="200" height="284,5" 
+}
+body, img {
+    background-image: src="images/boy.jpg" alt="$uisideboy$" width="200" height="284,5" 
+}
+body, img {
+    background-image: src="images/lilpeep.jpg" alt="LilPeep" width="200" height="284,5" 
 }
