@@ -1,4 +1,6 @@
-p, h1 {
-    color:red;
-    font-size: 24px;
+body, img {
+    background-color:#cfcfcf;
+    width: 200px;
+    height: 284px;
+    border: 1.5px solid #999
 }
