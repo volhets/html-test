@@ -1,6 +1,7 @@
-body, img {
-    background-color:#cfcfcf;
-    width: 200px;
-    height: 284px;
-    border: 1.5px solid #999
+body {
+    padding-top:100px;
+}
+
+.footer-text {
+    margin-top:100px;
 }
