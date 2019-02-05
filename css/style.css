@@ -2,6 +2,12 @@ body {
     padding-top:100px;
 }
 
-.footer-text {
-    margin-top:100px;
+footer {
+    margin: 0;
+    padding: 0;
+    min-height: calc(10vh - 80px);
+}
+
+.marks {
+    list-style-type: none
 }
