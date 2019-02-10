@@ -1,13 +1,128 @@
 body {
-    padding-top:100px;
+    margin: 0;
 }
 
-footer {
-    margin: 0;
-    padding: 0;
-    min-height: calc(10vh - 80px);
+.pass{
+    padding-top: 100px;
+}
+
+.pass2{
+    padding-top: 50px;
+}
+
+.table-marks{
+    width: 75%;
+    border: 1px solid grey;
+    align-self: auto;
 }
 
 .marks {
     list-style-type: none
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar-item {
+    float: left;
+}
+
+.navbar-item.last-item {
+    float: right;
+}
+
+.navbar-item>a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar-item>a.active {
+    background-color: #555;
+}
+
+.navbar-item>a:hover {
+    background-color: #111;
+}
+
+.container {
+    margin-top: 60px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.biography-image-block {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.biography-image-block>img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px
+}
+
+.content-block {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.contact-list {
+    list-style-type: none;
+}
+
+.movies-list,
+.singers-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.movies-list>.movies-list-item,
+.singers-list>.singers-list-item {
+    display: flex;
+    max-width: 300px;
+    border: 1px solid black;
+    font-size: 0.8em;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.movies-list>.movies-list-item>.movies-list-item-image img,
+.singers-list>.singers-list-item>.singers-list-item-image img {
+    width: 150px;
+    height: 200px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    height: 50px;
+}
+
+footer .footer-text {
+    text-align: center;
+    padding: 15px 0;
 }
