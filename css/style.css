@@ -1,5 +1,10 @@
+html {
+    height: 100%;
+}
+
 body {
     margin: 0;
+    height: 100%;
 }
 
 .pass{
@@ -10,10 +15,15 @@ body {
     padding-top: 50px;
 }
 
-.table-marks{
-    width: 75%;
+table.table-marks,
+table.table-marks td,
+table.table-marks th {
     border: 1px solid grey;
-    align-self: auto;
+}
+
+table.table-marks{
+    width: 75%; 
+    margin: auto;  
 }
 
 .marks {
@@ -120,6 +130,13 @@ footer {
     background-color: #333;
     color: #fff;
     height: 50px;
+}
+
+footer.bottom-footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 footer .footer-text {
