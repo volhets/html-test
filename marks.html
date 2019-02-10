@@ -3,37 +3,93 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Оцінки</title>
+    <title>Last marks</title>
     <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 </head>
 
-<body>
-    <table border="1" align="center" width="50%" ceellspcing="0">
+<body class="pass2">
+    <nav class="navbar">
+        <ul>
+            <li class="navbar-item"><a href="./new_index.html">Home</a></li>
+            <li class="navbar-item"><a href="./gallery.html" target="_blank">Gallery</a></li>
+            <li class="navbar-item"><a class="active" href="./marks.html" target="_blank">Last marks</a></li>
+            <li class="navbar-item last-item"><a href="./login.html" target="_blank">Sign In</a></li>
+        </ul>
+    </nav>
+    <table class="table-marks">
+        <h1>My grades</h1>
         <tr>
-            <td>Предмет</td>
-            <td>Оцінка</td>
-            <td>ПІБ викладача</td>
+            <th>Subject</th>
+            <th>Rating</th>
+            <th>First name teacher</th>
         </tr>
         <tr>
-            <td>Алгебра</td>
-            <td>8</td>
-            <td>Грос Дарія Ярославівна</td>
-        </tr>
-        <tr>
-            <td>Геометрія</td>
+            <td>Algebra</td>
             <td>7</td>
-            <td>Грос Дарія Ярославівна</td>
+            <td>Дарія Ярославівна</td>
+        </tr>
+        <tr>
+            <td>Geometry</td>
+            <td>7</td>
+            <td>Дарія Ярославівна</td>
+        </tr>
+        <tr>
+            <td>Ukrainian language</td>
+            <td>7</td>
+            <td>Ірина Михалівна</td>
+        </tr>
+        <tr>
+            <td>Ukrainian literature</td>
+            <td>9</td>
+            <td>Ірина Михалівна</td>
+        </tr>
+        <tr>
+            <td>Foreign Language</td>
+            <td>8</td>
+            <td>Олена Андріївна</td>
+        </tr>
+        <tr>
+            <td>History of Ukraine</td>
+            <td>7</td>
+            <td>Оксана Михалівна</td>
+        </tr>
+        <tr>
+            <td>World History</td>
+            <td>7</td>
+            <td>Оксана Михалівна</td>
+        </tr>
+        <tr>
+            <td>Science of law</td>
+            <td>7</td>
+            <td>Оксана Михалівна</td>
+        </tr>
+        <tr>
+            <td>Ethics</td>
+            <td>7</td>
+            <td>Лідія Михалівна</td>
+        </tr>
+        <tr>
+            <td>Biology</td>
+            <td>4</td>
+            <td>Лариса Анатоліївна</td>
+        </tr>
+        <tr>
+            <td>Physics</td>
+            <td>7</td>
+            <td>Лариса Анатоліївна</td>
         </tr>
     </table>
-    <dl>
-        <li>Дата початку: 10.12.2018</li>
-        <li>Дата закінчення: 24.12.2018</li>
+    <dl class="marks">
+        <li><strong>Start date:</strong> 1.09.2018</li>
+        <li><strong>End date:</strong> 30.12.2018</li>
     </dl>
-    <nav>
-        <li><a href="./login.html" target="_blank">Сторінка логіна</a></li>
-        <li><a href="./index.html" target="_blank">Сторінка основна</a></li>
-        <li><a href="./gallery.html" target="_blank">Сторінка галереї</a></li>
-    </nav>
+    <footer class="bottom-footer">
+        <div class="footer-text">
+            © Volodymyr V. Hets (<i>volhets@gmail.com</i>) 2019
+        </div>
+    </footer>
 </body>
 
 </html>
