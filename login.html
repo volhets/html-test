@@ -12,21 +12,36 @@
 <body class="pass">
     <nav class="navbar">
         <ul>
-            <li class="navbar-item"><a href="./new_index.html">Home</a></li>
+            <li class="navbar-item"><a href="./index.html">Home</a></li>
             <li class="navbar-item"><a href="./gallery.html" target="_blank">Gallery</a></li>
             <li class="navbar-item"><a href="./marks.html" target="_blank">Last marks</a></li>
             <li class="navbar-item last-item"><a class="active" href="./login.html" target="_blank">Sign In</a></li>
         </ul>
     </nav>
-    <form action="auth.php" method="post">
-        <span>Login:</span>
-        <input type="text" name="name" id="name" placeholder="Login">
-        <br>
-        <span>Password:</span>
-        <input type="password" name="pswrd" id="pswrd" placeholder="Password">
-        <br>
-        <input type="button" value="Send">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,600' rel='stylesheet' type='text/css'>
+
+    <form method="post" action="index.html">
+        <div class="box">
+            <h1>Dashboard</h1>
+
+            <input type="email" name="email" value="email" class="email" />
+
+            <input type="password" name="email" value="email" class="email" />
+
+            <a href="#">
+                <div class="btn">Sign In</div>
+            </a> <!-- End Btn -->
+
+            <a href="#">
+                <div id="btn2">Sign Up</div>
+            </a> <!-- End Btn2 -->
+
+        </div> <!-- End Box -->
+
     </form>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
 
     <footer class="bottom-footer">
         <div class="footer-text">
