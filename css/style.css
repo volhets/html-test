@@ -26,7 +26,7 @@ table.table-marks{
 }
 
 .navbar {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -222,8 +222,4 @@ h1{
   margin-left:10px;
   font-weight:800;
   font-size:0.8em;
-}
-
-#btn2:hover{ 
- 
 }
