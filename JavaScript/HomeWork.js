@@ -1,9 +1,7 @@
-var arr = [" Жадіна гавдінаб пустка шоколадіна.","Ябеда, Ябеда! Ябеда - корябеда", "Обдурили дурака - на чотири кулака"];
+var arr = [3, 2, 1]
+var newArr=''
 
-var rand = min + Math.floor(Math.random() * (max + 1 - min));
-
-var arr = [" Жадіна гавдінаб пустка шоколадіна.","Ябеда, Ябеда! Ябеда - корябеда", "Обдурили дурака - на чотири кулака"];
-
-var rand = Math.floor(Math.random() * arr.length);
-
-alert( arr[rand] );
+for(var i = 0; i < arr.length; i++){
+newArr = newArr + arr[i] + ' больше, чем '
+}
+console.log(newArr.slice(0, 29))
