@@ -1,7 +1,5 @@
-var arr = [3, 2, 1]
-var newArr=''
+var arr = ['3 больше', 'чем 2 больше', 'чем 1'];
 
-for(var i = 0; i < arr.length; i++){
-newArr = newArr + arr[i] + ' больше, чем '
-}
-console.log(newArr.slice(0, 29))
+var str = arr.join(';');
+
+alert( str )
