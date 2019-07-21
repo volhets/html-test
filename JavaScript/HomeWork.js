@@ -1,5 +1,5 @@
-var arr = ['3 больше', 'чем 2 больше', 'чем 1'];
+var fruits = ["Яблоко", "Апельсин", "Слива"];
 
-var str = arr.join(';');
-
-alert( str )
+alert( fruits[0] );
+alert( fruits[1] );
+alert( fruits[2] );
